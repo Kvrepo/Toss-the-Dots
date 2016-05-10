@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+body {
+	background-color: #529096;
+}
+#container {
+	width: 600px;
+	margin: auto;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+#game {
+	width: 480px;
+	margin: auto;
+}
+p {
+	margin: 0px;
+}
+</style>
+</head>
+<body onload="loader()">
+<div id="container">
+	<div id="game"></div>
+	<div id="credits">
+		<p>Move the dots with the arrow keys or by swiping the screen (only on mobile devices). Navigate the green dot to the exit in order to advance.</p>
+		<p>Avoid the red dots and blocks. They don't want you to leave.</p>
+		<p>Press 'm' to mute and unmute.</p>
+		<p>Press 'r' to reset the level.</p>
+		<p>Press 'enter' to start.</p>
+		<br>
+		<p>Using the latest version of Firefox or Chrome for playing is highly advised.</p>
+		<br>
+		<p>Music by Eric Matyas <a href="http://www.soundimage.org">www.soundimage.org</a></p>
+		<p>Sound effects are from <a href="http://www.freesound.org">www.freesound.org</a> and created by</p>
+		<ul>
+		<li>JustinBW – win sound</li>
+		<li>fins – death sound</li>
+		<li>ertfelda – movement</li>
+		</ul>
+		<p>All the audio is managed by Hwoler.js <a href="http://www.howlerjs.com">www.howlerjs.com</a></p>
+		<br>
+		<p>The game is created by Kvrepo.</p>
+		</div>
+</div>
+<script src="howler.min.js"></script>
+<script src="levels.js"></script>
+<script src="colors.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
