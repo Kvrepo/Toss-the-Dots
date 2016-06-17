@@ -237,7 +237,7 @@ var gameArea={
 		document.getElementById("statusBar").appendChild(text);		
 		document.getElementById("text").style.width=barW+"px";
 		document.getElementById("text").style.height=faceH+"px";
-		text.innerHTML="Amanda: Why do we have to shill again?";
+		text.innerHTML="Panna: Hello there!";
 		
 		sides=document.getElementById("gameField").getBoundingClientRect();
 		//document.getElementById("gameField").style.cursor = "none";
