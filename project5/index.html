@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+canvas{
+	border: 1px solid black;
+}
+#game{
+	border: 1px solid black;
+	padding:3px;
+	width:50px;
+}
+#statusBar{
+	border: 1px solid black;
+}
+#face{
+	display: block;
+	float:left;
+}
+#text{
+	background-color: rgba(230,230,230,0.3);
+	float:left;
+	display: flex;
+	align-items: flex-end;
+	padding: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#actStatus{
+	background-color: rgba(230,230,230,0.3);
+	float:left;
+}
+</style>
+</head>
+<body onload="start()">
+<div id="game"></div>
+<!--
+<script src="https://raw.githubusercontent.com/darsain/fpsmeter/master/dist/fpsmeter.min.js"></script>
+-->
+<script src="game.js"></script>
+
+</body>
+</html>
